@@ -144,34 +144,34 @@ public class HangmanGame {
 						switch (numGuesses)
 						 {
 						case 0:
-							man = ImageIO.read(new File("C:\\java\\pics\\dead.bmp"));
+							man = ImageIO.read(new File("src/resources/dead.bmp"));
 							break;
 						case 1:
-							man = ImageIO.read(new File("C:\\java\\pics\\1guesses.bmp"));
+							man = ImageIO.read(new File("src/resources/1guesses.bmp"));
 							break;
 						case 2:
-							man = ImageIO.read(new File("C:\\java\\pics\\2guesses.bmp"));
+							man = ImageIO.read(new File("src/resources/2guesses.bmp"));
 							break;
 						case 3:
-							man = ImageIO.read(new File("C:\\java\\pics\\3guesses.bmp"));
+							man = ImageIO.read(new File("src/resources/3guesses.bmp"));
 							break;
 						case 4:
-							man = ImageIO.read(new File("C:\\java\\pics\\4guesses.bmp"));
+							man = ImageIO.read(new File("src/resources/4guesses.bmp"));
 							break;
 						case 5:
-							man = ImageIO.read(new File("C:\\java\\pics\\5guesses.bmp"));
+							man = ImageIO.read(new File("src/resources/5guesses.bmp"));
 							break;
 						case 6:
-							man = ImageIO.read(new File("C:\\java\\pics\\6guesses.bmp"));
+							man = ImageIO.read(new File("src/resources/6guesses.bmp"));
 							break;	
 						case 7:
-							man = ImageIO.read(new File("C:\\java\\pics\\7guesses.bmp"));
+							man = ImageIO.read(new File("src/resources/7guesses.bmp"));
 							break;
 						case 8:
-							man = ImageIO.read(new File("C:\\java\\pics\\guess.bmp"));
+							man = ImageIO.read(new File("src/resources/guess.bmp"));
 							break;	
 						case 9:
-							man = ImageIO.read(new File("C:\\java\\pics\\win.bmp"));
+							man = ImageIO.read(new File("src/resources/win.bmp"));
 							break;
 						
 						}
